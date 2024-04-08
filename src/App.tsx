@@ -3,7 +3,7 @@ import viteLogo from '/vite.svg';
 import './App.css';
 
 function App() {
-  const fruits = [{name: 'Mango' id: 1}, {name: 'Apple' id: 2}, {name: 'Jackfruit' id: 3}];
+  const fruits = [{name: 'Mango', id: 1}, {name: 'Apple', id: 2}, {name: 'Jackfruit', id: 3}];
 
   return (
     <>
