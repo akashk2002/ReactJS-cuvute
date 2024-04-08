@@ -3,7 +3,7 @@ import viteLogo from '/vite.svg';
 import './App.css';
 
 function App() {
-  const fruits = ['Mango', 'Apple', 'Jackfruit', 'Guava', 'Cherry'];
+  const fruits = [{name: 'Mango' id: 1}, {name: 'Apple' id: 2}, {name: 'Jackfruit' id: 3}];
 
   return (
     <>
@@ -11,7 +11,7 @@ function App() {
       {
         fruits.map((fruit, index)=> {
 
-          return <ol key={fruit}>{fruit}</ol>
+          return <ol key={fruit.id}>{fruit.name}</ol>
         
 
         })
