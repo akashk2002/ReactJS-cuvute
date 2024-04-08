@@ -25,10 +25,15 @@ function App() {
       <h1>Marks of Students</h1>
       {
         marks.map((mark) => {
-          return mark.map((item)=>{
-            return <p>{item}</p>
-          })
+          return <div key={mark[0]}>
+            {
+              mark.map((mar) =>{
+              return <span key={mar}>{mar},</span>
         })
+            }
+          </div>
+          })
+        
       }
 
       
